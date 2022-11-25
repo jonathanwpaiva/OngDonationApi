@@ -18,5 +18,8 @@ namespace OngDonationApi.Models.Responses
 
         [JsonProperty("municipio")]
         public string City { get; set; }
+
+        [JsonProperty("razao_social")]
+        public string Razao_social { get; set; }
     }
 }

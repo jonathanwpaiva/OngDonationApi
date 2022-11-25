@@ -6,7 +6,9 @@ namespace OngDonationApi.Repositories.Interfaces
 {
     public interface IOngsRepository
     {
-        //public Ong GetOngById(string id);
+        //public Task GetOngByCnpj(string cnpj);
+        public Task<IEnumerable<Ong>> GetOngByCnpj(string cnpj);
+        public Task<IEnumerable<Ong>> GetOngByCity(string city);
         public Task<IEnumerable<Ong>> GetOngs();
         public Task CreateOng(Ong ong);
         //public Task UpdateOng(Ong ong);

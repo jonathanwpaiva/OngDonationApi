@@ -4,7 +4,7 @@ using OngDonationApi.Facades.Interfaces;
 
 namespace OngDonationApi.Controllers.v1
 {
-    [Route("api/[controller]")]
+    [Route("api/cep")]
     [ApiController]
     public class CepController : ControllerBase
     {

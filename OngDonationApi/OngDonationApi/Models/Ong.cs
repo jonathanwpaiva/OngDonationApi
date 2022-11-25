@@ -12,6 +12,7 @@ namespace OngDonationApi.Models
         public string Uf { get; set; }
         public string Municipio { get; set; }
         public string Natureza_juridica { get; set; }
-        public DateTimeOffset CreatedDate { get; set; }
+        public string descricao_situacao_cadastral { get; set; }
+
     }
 }
